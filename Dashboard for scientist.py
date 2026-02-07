@@ -1,10 +1,8 @@
 import numpy as np
 import pandas as pd
-import streamlit as st
 
 Diabetes_df = pd.read_csv("diabetes copy.csv")
 print(f" The first five entries are: \n{Diabetes_df.head()}")
-
 print(f"Number of Rows: \n{Diabetes_df.shape[0]}")
 print(f"Number of Columns: \n{Diabetes_df.shape[1]}")
 print(f"Overall Shape: \n{Diabetes_df.shape}")
